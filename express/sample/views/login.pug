@@ -1,0 +1,14 @@
+doctype html 
+html 
+    head 
+    title Login Page 
+    body 
+        h1 login credentials 
+    form(method="POST", action="/validate" )
+        b username 
+        input(type="text" name="username")
+        hr
+        b password 
+        input(type="password" name="password")
+        hr
+        input(type="submit" value="login")
