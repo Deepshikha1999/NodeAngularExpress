@@ -1,0 +1,36 @@
+[
+    {
+        "cartoonId" : 18673,
+        "cartoonName" : "Tom and Jerry",
+        "characterName" :[
+            "Tommy",
+            "Jerry",
+            "spike"
+        ]
+    },
+
+    {
+        "cartoonId" : 18997,
+        "cartoonName" : "Mickey Mouse",
+        "characterName" :[
+            "Mickey",
+            "Minnie",
+            "Goofy",
+            "Donald Duck"
+        ]
+    },
+    {
+        "cartoonId" : 19876,
+        "cartoonName" : "Ratatouille",
+        "characterName" :[
+            "alfred",
+            "horst",
+            "collete",
+            "anton ego",
+            "gusteau",
+            "remy",
+            "emile",
+            "mustafa"
+        ]
+    }
+]

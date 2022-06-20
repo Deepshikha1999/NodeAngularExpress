@@ -1,0 +1,7 @@
+.positive{
+    display: none;
+}
+
+.negative{
+    display: visible;
+}

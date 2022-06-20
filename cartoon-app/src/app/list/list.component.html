@@ -1,0 +1,20 @@
+<div class="container">
+    <table class="table table-striped">
+        <tr>
+            <th>cartoon id</th>
+            <th>cartoon</th>
+            <th>characters</th>
+        </tr>
+        <tr *ngFor="let c of cartoons; let i=index">
+            <td>{{c.cartoonId}}</td>
+            <td>{{c.cartoonName}}</td>
+            <td><span><button class="btn btn-danger" (click)="change(i)">character list</button></span>
+               <div [ngClass]="{'positive':x[i]==0,'negative':x[i]==1}"><hr>
+                <ul *ngFor="let k of c.characterName" class = "list-group">
+                <li class="list-group-item">{{k}}</li><br>
+            </ul>
+            </div>
+            </td>
+        </tr>
+    </table>
+</div>

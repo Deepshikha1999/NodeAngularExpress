@@ -1,0 +1,16 @@
+<form (ngSubmit)="save()">
+    <label>Cartoon Id</label>
+    <input name="cartoonId" [(ngModel)]=cartoon.cartoonId><hr>
+
+    <label>Cartoon name</label>
+    <input name = " cartoonName" [(ngModel)]=cartoon.cartoonName><hr>
+
+    <label> Characters</label>
+    <input name = "character" [(ngModel)]=value><hr>
+    <button type="button" class="btn btn-info" (click)="addCharacter()">Add Character</button><hr>
+    <ul *ngFor="let k of character" class = "list-group">
+        <li class="list-group-item">{{k}}</li>
+    </ul><hr>
+
+    <button type="submit" class="btn btn-info">Add Cartoon</button>
+</form>
